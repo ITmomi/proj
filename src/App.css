@@ -1,0 +1,14 @@
+#root {
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding-left: 10px;
+}
