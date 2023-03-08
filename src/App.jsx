@@ -4,6 +4,7 @@ import { BrowserRouter, Route, Switch } from "react-router-dom";
 import {Home} from './Page/Home'
 /** @jsxImportSource @emotion/react */
 import { css } from '@emotion/react';
+import '../styles/styled.scss';
 
 
 const HeaderStyle = css`
@@ -11,7 +12,6 @@ const HeaderStyle = css`
   background-color: black;
   display: flex;
   align-items: center;
-  
   & > span {
     font-weight: 700;
     font-size: 20px;
